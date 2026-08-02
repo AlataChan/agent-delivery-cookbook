@@ -6,8 +6,10 @@ Use these formats to keep deliverables consistent across projects.
 
 | Phase | Gate name | Key outputs (deliverables) | Visual artifacts | Owner roles | Target date | Status |
 |---|---|---|---|---|---|---|
-| 0 | North Star Gate | Project charter v0, success metrics draft, risk register v0 | Context map (drawio) | Biz owner / Delivery lead | TBD | TBD |
-| 1 | Discovery Gate | Scenario catalog, taxonomy v1, data inventory | Scenario flow + taxonomy tree (fireworks) | Biz SME / Knowledge lead | TBD | TBD |
+| Q | Qualification Gate | Qualification memo (pain/economics/feasibility), risk-signal check, go/no-go decision | — | Biz owner / Delivery lead | TBD | TBD |
+| 0 | North Star Gate | Project charter v0, success metrics draft, **pre-project baseline snapshot**, risk register v0 | Context map (drawio) | Biz owner / Delivery lead | TBD | TBD |
+| 1 | Discovery Gate | Scenario catalog, workaround log, taxonomy v1, data inventory | Scenario flow + taxonomy tree (fireworks) | Biz SME / Knowledge lead | TBD | TBD |
+| 1.5 | Pilot Graduation Gate | Graduation contract (duration, threshold, parting terms), real-data validation note | — | Delivery lead / Biz owner | TBD | TBD |
 | 2 | SOW Freeze Gate | SOW, RACI, change control | RACI swimlane (drawio) | PM / Biz owner | TBD | TBD |
 | 3 | Readiness Gate | Access checklist, data governance, observability schema | Deployment topology (drawio) | IT/Sec / Delivery | TBD | TBD |
 | 4 | Model Deploy Gate | Runtime ready, safety/compliance, baseline perf | — | Platform/vendor | TBD | TBD |
@@ -15,7 +17,7 @@ Use these formats to keep deliverables consistent across projects.
 | 6 | Delivery Gate | chunking v1, retrieval policy v1, agent policy v1 | Agent arch + RAG flow (fireworks) | Delivery / Product | TBD | TBD |
 | 7 | UAT Gate | eval set, metrics, UAT checklist, regression loop | Dashboard mockup (fireworks) | QA / Biz sign-off | TBD | TBD |
 | 7.5 | Packaging Gate | DOCX + PPTX + delivery package | All diagrams embedded | Delivery lead | TBD | TBD |
-| 8 | Go-Live Gate | runbook, on-call, monitoring, rollback | Cutover flowchart (drawio) | Ops / Delivery | TBD | TBD |
+| 8 | Go-Live Gate | runbook, on-call, monitoring, rollback, **adoption plan + role map (champion/influencer/displaced)** | Cutover flowchart (drawio) | Ops / Delivery | TBD | TBD |
 
 ## 2) Gate Checklist (DoR/DoD)
 
